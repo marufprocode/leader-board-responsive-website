@@ -1,0 +1,62 @@
+/* === for google fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@500&family=Play:wght@700&family=Poppins:ital,wght@0,400;1,300&family=Splash&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+/* === Header-style-starts === */
+#top-header{
+   display: flex;
+   justify-content: space-evenly;
+   height: 94px;
+   width: 100%;
+   background-color: #562EFF;
+   align-items: center;
+}
+
+.logo{
+   display: flex;
+   font-size: 24px;
+   font-weight: 500;
+   color: white;
+   align-items: center;
+}
+
+.logo > img{
+   margin-right: 15px;
+}
+
+.menu-sec{
+   display: flex;
+   align-items: center;
+}
+
+.menu-sec a{
+   text-decoration: none;
+   color: white;
+   margin-right: 36px;
+}
+
+/* === Header-style-end === */
+               /* ---------------------- */
+
+/* === Main-body-style-start === */
+.players > img{
+   width: 56px;
+   height: 56px;
+}
+
+.players{
+   display: flex;
+   align-items: center;
+}
+
+.players-sec{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+/* === Main-body-style-end === */
