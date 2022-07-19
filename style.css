@@ -8,6 +8,16 @@
    font-family: 'Poppins', sans-serif;
 }
 
+/* ----------Common Styles----------- */
+a{
+   text-decoration: none;
+}
+
+h2, .author{
+   color: #562EFF;
+}
+/* ----------Common Styles End----------- */
+
 /* === Header-style-starts === */
 #top-header{
    display: flex;
@@ -45,6 +55,18 @@
                /* ---------------------- */
 
 /* === Main-body-style-start === */
+
+#main-body{
+   width: 70%;
+   background-color: antiquewhite;
+   margin: 20px auto;
+   border-radius: 10px;
+   padding: 20px;
+}
+
+#main-body h2 {
+   margin: 10px;
+}
 .players > img{
    width: 56px;
    height: 56px;
@@ -55,8 +77,37 @@
    align-items: center;
 }
 
+.players, img, p{
+   margin: 5px;
+}
 .players-sec{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
 }
+
+.hr-style{
+   width: 100%;
+   margin: 20px auto;
+   border: 0.1px solid rgba(128, 128, 128, .5);
+}
+
+#blog-sec{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+
+}
+.blogs{
+   width: 384px;
+   height: 127px;
+   display: flex;
+   align-items: center;
+}
+.blog-image{
+   width: 224px;
+   height: 127px;
+   border-radius: 10px;
+   margin-right: 20px;
+}
 /* === Main-body-style-end === */
+             /* ----------------------- */
+
